@@ -1,0 +1,245 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    font-family: Verdana; sans-serif;
+    justify-content: center;
+}
+
+
+/* trying something out, didn't really work*/
+/*.wholepage {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+}*/
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 1200px;
+}
+
+.headerlogo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+}
+
+li {
+    margin: 10px;
+}
+
+.firstleft {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.firstsection {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 75px 65px;
+    width: 1200px;
+}
+
+.signup, .signup2 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.signup {
+    border: none;
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.signup2 {
+    border: 1px solid white;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.muffin {
+    display: flex;
+    padding: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.midwhite {
+    display:flex;
+    justify-content: space-around;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    text-align: center;
+    padding: 10px;
+    margin: 75px 65px;
+    width: 1200px;
+}
+
+.emptybox {
+    display: flex;
+    border: 2px solid blue;
+    height: 125px;
+    width: 125px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.infotext {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.text {
+    padding-top: 10px;
+}
+
+.leftleft, 
+.midleft, 
+.midright, 
+.rightright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.grey {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+    padding: 10px;
+    width: 1200px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 10px;
+    margin: 50px 50px 6px 65px;
+}
+
+.source {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-right: 65px;
+    margin-bottom: 50px;
+
+}
+
+.weird {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.lastsection {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 75px;
+    padding: 50px 12px;
+}
+
+.callto {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 800px;
+    
+}
+
+.action {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.whatdo {
+    margin: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
